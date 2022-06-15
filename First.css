@@ -1,0 +1,52 @@
+.container{
+    background-color: cyan;
+    background-image: url("../img/bttt.jpg");
+    background-repeat: no-repeat;
+    background-position: relative;
+    background-size:100%;
+}
+.navbar{
+    margin: auto ;
+    padding: 14px 16px ;
+    display: flex;
+    float: left;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px ;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+  .content{
+      width:100%;
+      position:absolute;
+      top: 40%;
+      transform: translate;
+      text-align:center;
+      color: whitesmoke;   
+  }
+  .content h1{
+     font-size: 60px;
+     margin-top:50px;
+     font-style:italic;
+  }
+  button{
+      width: 150px;
+      padding: 10px 0;
+      text-align: center;
+      margin: 20px 10px;
+      border-radius: 25px;
+      font-weight: bold;
+      border: 2px solid #009600;
+      background: transparent ;
+      color: #fff;
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+  }

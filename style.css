@@ -1,0 +1,22 @@
+.banner{
+    /* background-color: pink; */
+    background-image: url("../vs/img/bg.jpg");
+
+}
+
+.banner{
+    color: magenta;
+    /* background-image: "C:\Users\SomireddyNireesha\OneDrive - Ramp Group Technologies\Desktop\vs\img\bg.jpg"; */
+    background-image: url("tree.png");
+    background-repeat: no-repeat;
+    width:auto;
+    height: 100%;
+}
+.navbar{
+    background-image: url("../vs/img/bg.jpg");
+}
+.bg_image{
+    color: pink;
+    /* background-image: "tree.png"; */
+    /* background-image: url("tree.png"); */
+}
